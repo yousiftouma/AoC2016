@@ -5,11 +5,6 @@ col4 = [False, 4, 8, "C", False]
 col5 = [False, False, 9, False, False]
 keypad = [col1,col2,col3,col4,col5]
 
-print(keypad)
-print(keypad[2][2])
-print(keypad[0][2])
-print(keypad[2][4])
-
 moves = []
 for i in range(5):
 	moves.append(input())
@@ -31,6 +26,5 @@ for mov in moves:
 			x += move[m][0]
 			y += move[m][1]
 	ans += str(keypad[x][y])
-	print(ans)
 
 print(ans)
