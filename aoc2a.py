@@ -5,11 +5,6 @@ for i in range(3):
 		keypad[j][i] = k
 		k += 1
 
-print(keypad)
-print(keypad[1][1])
-print(keypad[0][2])
-print(keypad[2][1])
-
 moves = []
 for i in range(5):
 	moves.append(input())
